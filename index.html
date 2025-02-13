@@ -27,11 +27,12 @@
       <li><a href="#">Projects</a></li>
       <li><a href="#">Blog</a></li>
     </ul>
-
-    <form class="search">
-      <input type="search" name="q" placeholder="Search query">
-      <input type="submit" value="Go!">
-    </form>
+    <search>
+      <form>
+        <input type="search" name="q" placeholder="Search query" aria-label="Search through site content" />
+        <input type="submit" value="Go!" />
+      </form>
+    </search>
   </nav>
 
   <main>
@@ -87,13 +88,14 @@
         </tbody>
       </table>
 
+      <br>
       <font size="5">Habitats and Eating habits</font>
       <br><br>
       Wild bears eat a variety of meat, fish, fruit, nuts, and other natually growing ingredients. In general they will
       hunt for food themselves in woodland or rivers, but at a push they will track down their sustenance from farms or
       country houses. They tend to live in relative isolation, in caves, tents, or cottages.
       <br><br>
-      <img src="media/wild-bear.jpg" alt="Wild Brown Bear">
+      <img src="media/wild-bear.jpg" alt="Wild Brown Bear" aria-label="A Wild Brown Bear">
       <br><br>
       Urban (gentrified) bears on the other hand have largely abandoned the old ways. They will hunt other urban
       creatures if necessary (including other predators like rats and foxes), but prefer to scavenge from readily
@@ -101,7 +103,7 @@
       have even been known to break into people's kitchens and steal essentials like baked beans, ready meals, and
       microwave ovens.
       <br><br>
-      <img src="media/urban-bear.jpg" alt="Bear in Cage">
+      <img src="media/urban-bear.jpg" alt="Bear in Cage" aria-label="A Bear in a Cage">
       <br><br>
       Urban bears will sleep anywhere they can, from bus shelters and parks, to the toilets in McDonalds, to their own
       apartment.
@@ -117,11 +119,15 @@
       and quotes from experts.
       <br><br>
       <audio controls>
-        <source src="media/bear.mp3" type="audio/mp3" alt="">
-        <source src="media/bear.ogg" type="audio/ogg" alt="">
+        <source src="media/bear.mp3" type="audio/mp3">
+        <source src="media/bear.ogg" type="audio/ogg">
+
         <p>It looks like your browser doesn't support HTML5 audio players.</p>
       </audio>
-
+      <br>
+      Transcribed audio: "This isn't really an audio fact file about bears, but it is an audio file that you can
+      transcribed."
+      <br><br>
       <aside>
 
         <font size="5">About the author</font>
@@ -130,7 +136,7 @@
         went to Chester Zoo on holiday, but got ill after eating a doner kebab.
         <br><br>
         He has never seen a bear, but once read a Daily Mail article about them, and thinks they sound cool.
-
+        <br><br>
       </aside>
       <section class="comments">
         <div class="show-hide">Show comments</div>

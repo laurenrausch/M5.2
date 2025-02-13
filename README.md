@@ -43,7 +43,7 @@ The images are currently inaccessible to screen reader users. Can you fix this?
 
 The audio player isn't accessible to hearing impaired (deaf) people — can you add some kind of accessible alternative for these users?
 
-    
+    You can wrap  regular label.
 
 The audio player isn't accessible to those using older browsers that don't support HTML audio. How can you allow them to still access the audio?
 
