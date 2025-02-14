@@ -63,8 +63,12 @@ The show/hide comment control button is not currently keyboard-accessible. Can y
 
 The data table is not currently very accessible — it is hard for screen reader users to associate data rows and columns together, and the table also has no kind of summary to make it clear what it shows. Can you add some features to your HTML to fix this problem?
 
-    
+    I just did some simple changes by giving the table a header as well as bolding the column titles to it makes it more visually clear that those are titles and not parts of the table.
 
+Other Considerations?
+Can you list two more ideas for improvements that would make the website more accessible?
+
+    I think potentially more audio files for different section could make this page more accessible. Maybe an audio that covers the entire page. Another idea that could make ths website more accessible is maybe smaller and sections of information that are more digestible for people of all ages because this feels very catered to adults, maybe condensing it could make it easier for more ages to follow along with.
 
 
 ### Outside Sources 
