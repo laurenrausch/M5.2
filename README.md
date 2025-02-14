@@ -35,7 +35,7 @@ Can you update the article text to make it easier for screen reader users to nav
     
 The navigation menu part of the site. Could be made more accessible by putting it in a proper HTML semantic element. Which one should it be updated to? Make the update.
 
-    I'm pretty sure it just needs to be wrapped in a nav wrapping.
+    I'm pretty sure it just needs to be wrapped in a nav class.
 
 The images are currently inaccessible to screen reader users. Can you fix this?
 
@@ -43,9 +43,11 @@ The images are currently inaccessible to screen reader users. Can you fix this?
 
 The audio player isn't accessible to hearing impaired (deaf) people — can you add some kind of accessible alternative for these users?
 
-    You can wrap  regular label.
+    I decided to add the transcription onto the screen, you could also make a hover label if you wanted but because the transcription so short 
 
 The audio player isn't accessible to those using older browsers that don't support HTML audio. How can you allow them to still access the audio?
+
+    
 
 
 

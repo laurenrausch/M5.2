@@ -19,9 +19,9 @@ body {
 
 /* || typography */
 
-font[size="7"],
-font[size="6"],
-font[size="5"] {
+h1,
+h2,
+h3 {
   font-family: 'Sonsie One', cursive;
   color: #080808;
 }
@@ -35,19 +35,19 @@ label {
   color: #040404;
 }
 
-font[size="7"] {
+h1 {
   font-size: 4rem;
   text-align: center;
   color: rgb(18, 17, 17);
   text-shadow: 2px 2px 10px black;
 }
 
-font[size="6"] {
+h2 {
   font-size: 3rem;
   text-align: center;
 }
 
-font[size="5"] {
+h3 {
   font-size: 2.3rem;
 }
 
@@ -64,7 +64,7 @@ nav,
 article,
 footer,
 .secondary {
-  background-color: rgb(151, 195, 151);
+  background-color: rgb(170, 210, 170);
 }
 
 article,
@@ -75,6 +75,10 @@ footer,
 
 article {
   margin-right: 10px;
+}
+
+label {
+  visibility: hidden;
 }
 
 nav {
@@ -201,7 +205,7 @@ audio {
   padding: 10px;
 }
 
-.show-hide {
+button {
   cursor: pointer;
 }
 
@@ -233,20 +237,26 @@ audio {
   flex: 6;
 }
 
-.show-hide {
+button {
   text-align: center;
   width: 150px;
 }
 
 .comment-form input,
 .comment-form label,
-.show-hide {
+.show-hide button {
   font-size: 1.6rem;
   line-height: 32px;
 }
 
-.comment-form input[type="submit"],
-.show-hide {
+.comment-form input[type="submit"] {
+  background: #333;
+  border: 0;
+  color: rgb(254, 254, 254);
+}
+
+button {
+  font-family: 'Open Sans Condensed', sans-serif;
   background: #333;
   border: 0;
   color: rgb(254, 254, 254);
